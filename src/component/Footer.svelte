@@ -4,7 +4,7 @@
     let srcCone = '././img/image-gallery-cone.jpg';
     let srcSugar = '././img/image-gallery-sugarcubes.jpg'; 
 
-    let srcLogo = '././img/logo.svg'; 
+    let srcLogo = '././img/sunnyside.svg'; 
 
     let srcFacebook = '././img/icon-facebook.svg';
     let srcInstagram = '././img/icon-instagram.svg';
@@ -42,14 +42,15 @@
         position: relative;
         width: 1440px;
         height: 797px;
-        top: 3377px;
+        top: 447px;
     }
     .footer-img {
+        position: relative;
         display:flex;
         flex-direction: row;
         width: 360px;
         height: 447px;
-        top: 3377px;
+        top: 0px;
     }
     .footer-bottom {
         display:flex;
@@ -59,6 +60,7 @@
         background: #90D4C6;
     }
     .footer-content {
+        position: relative;
         display:flex;
         flex-direction: column;
         align-items: center;
@@ -68,25 +70,24 @@
         padding: 70px;
     } 
     .logo {
-        color: #458D7E;
         display:flex;
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
         width: 170px;
-        height: 33px; 
-
+        height: 33px;
         left: 628px;
         top: 3896px;
+        color: #458D7E;
     }
     .nav-list {
+        position: relative;
         display: flex;
         flex-direction: row;
-        width: 300px;
+        width: 350px;
         height: 25px;
-        left: 570px;
-        top: 3969px;
-
+        left: 0px;
+        top: -20px;
         font-family: 'Barlow', sans-serif;
         font-style: normal;
         font-weight: 600;
@@ -94,45 +95,43 @@
         line-height: 25px;
         letter-spacing: -0.128571px;
     }
-    ul {
-        list-style-type: none;
-        display: flex;
-        float:left;
-    }
     a {
-        text-decoration: none;
         color: #458D7E;
-        padding-right: 50px;
+        padding-right: 70px;
     }
     .icons {
-        float:left;
-        display:flex;
-        flex-wrap: row wrap;
-        align-content: space-between; 
+        position: relative;
+        height: 20px;
+        width: 164px;
+        left: -670px;
+        top: -4075px;
     }
     .srcFacebook {
+        position: relative;
         width: 20px;
         height: 20px;
-        left: 636px;
+        left: 670px;
         top: 4082px;
     }
     .srcInstagram {
+        position: relative;
         width: 20px;
         height: 20px;
-        left: 684px;
+        left: 697px;
         top: 4082px;
     }
     .srcTwitter {
+        position: relative;
         width: 20px;
         height: 16.25px;
-        left: 732px;
+        left: 721px;
         top: 4084.25px;
     }
     .srcPinterest {
+        position: relative;
         width: 20px;
         height: 20px;
-        left: 780px;
+        left: 746px;
         top: 4082px;
     }
-
 </style>

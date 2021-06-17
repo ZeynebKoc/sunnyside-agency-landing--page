@@ -6,11 +6,8 @@
 </script>
 
 <main>
-<Header />
-<Section />
-<Testimonial />
-<Footer />
+	<Header />
+	<Section />
+	<Testimonial />
+	<Footer />
 </main>
-
-<style>	
-</style>

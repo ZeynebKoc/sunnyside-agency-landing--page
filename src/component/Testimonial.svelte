@@ -37,49 +37,56 @@
 <style>
     .testimonial {
         position: relative;
-        height: 1577px;
-        top: 3377px;
+        height: 457px;
+        width: 1110px;
         left: 165px;
+        top: 0px;
     }
     .people{
+        position: relative;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
         width: 1110px;
         height: 457px;
+        left: 0px;
+        top: -140px;
     }
     .person1 {
+        position: relative;
         height: 96px;
         width: 350px;
         left: 0px;
         top: 236px;
-
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     .person2 {
+        position: relative;
         height: 96px;
         width: 350px;
-        left: 380px;
+        left: 0px;
         top: 236px;
-
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     .person3 {
+        position: relative;
         height: 96px;
         width: 350px;
-        left: 760px;
+        right: 0px;
         top: 236px;
-
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     h3 {
+        position: relative;
+        left: 0px;
+        top: 190px;
         text-align: center;
         font-family: 'Fraunces', serif;
         font-style: normal;
@@ -100,8 +107,8 @@
         border-radius: 50px;   
     }
     .text {
-        height: 96px;
-        width: 350px;
+        position: relative;
+        top: 40px;
         font-family: 'Barlow', sans-serif;
         font-style: normal;
         font-weight: 600;
@@ -112,6 +119,8 @@
         color: #5B636D;
     }
     h2 {
+        position: relative;
+        top: 100px;
         font-family: 'Fraunces', serif;
         font-style: normal;
         font-weight: 900;
@@ -122,6 +131,8 @@
         color: #24303E;
     }
     .profession {
+        position: relative;
+        top: 90px;
         font-family: 'Barlow', sans-serif;
         font-style: normal;
         font-weight: 600;
