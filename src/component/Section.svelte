@@ -11,7 +11,10 @@
         <p class='text1'>We are a full-service creative agency specializing in<br />
             helping brands grow fast. Engage your clients through<br />
             compelling visuals that do most of the marketing for you.</p>
-        <p class='text2'>LEARN MORE</p>
+        <div class='underline-yellow'>
+            <p class='text2'>LEARN MORE</p>
+            <div class='line-yellow'></div>
+        </div>
     </div >
     <img class='sec2' src={srcEgg} alt='EggPhoto'>
     <img class='sec3' src={srcCup} alt='CupPhoto'>
@@ -20,7 +23,10 @@
         <p class='text1'>Using a collaborative formula of designers, researchers,<br />
             photographers, videographers, and copywriters, we’ll<br />
             build and extend your brand in digital places. </p>
-        <p class='text2'>LEARN MORE</p>
+        <div class='underline-red'>
+            <p class='text2'>LEARN MORE</p>
+            <div class='line-red'></div>
+        </div>
     </div>
     <div class='sec5'>
         <img src={srcCherry} class='srcCherry' alt='CherryPhoto'>
@@ -49,7 +55,6 @@
         grid-template-columns: 720px 720px;
         grid-template-rows: 600px 600px 600px;
         grid-gap: 0 0; 
-
         height: 1800px;
         width: 1440px;
         }
@@ -63,14 +68,10 @@
         top: 100px;
     }
     .sec2 {
-        height: 600px;
-        width: 720px;
         left: 720px;
         top: 800px;
     }
     .sec3 {
-        height: 600px;
-        width: 720px;
         left: 0px;
         top: 1400px;
     }
@@ -85,8 +86,6 @@
     }
     .sec5 {
         position: relative;
-        height: 600px;
-        width: 720px;
         left: 0px;
         top: 0px;
     }
@@ -99,8 +98,6 @@
     }
     .sec6 {
         position: relative;
-        height: 600px;
-        width: 925px;
         left: 0px;
         top: 0px;
     }
@@ -164,6 +161,30 @@
         letter-spacing: 1px;
         color: #24303E;
     }
+    .line-yellow {
+        margin-top: -25px;
+        margin-left: -8px;
+        width: 130px;
+        height: 15px;
+        background: rgba(250, 212, 0, 0.2);
+        border-radius: 10px;
+    }
+    .underline-yellow:hover .line-yellow {
+        cursor: pointer;
+        background: rgba(250, 212, 0, 1);   
+    }
+    .line-red {
+        margin-top: -25px;
+        margin-left: -8px;
+        width: 130px;
+        height: 15px;
+        background: rgba(254, 119, 102, 1);
+        border-radius: 10px;
+    }
+    .underline-red:hover .line-red {
+        cursor: pointer;
+        background: rgba(254, 119, 102, 1);
+    } 
     .text3 {
         font-family: 'Barlow', sans-serif;
         font-style: normal;

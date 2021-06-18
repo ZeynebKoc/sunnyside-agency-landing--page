@@ -11,12 +11,3 @@
 	<Testimonial />
 	<Footer />
 </main>
-
-<style>
-	main {
-		width: 1440px;
-		height: 4174px;
-	}
-
-
-</style>
