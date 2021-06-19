@@ -178,7 +178,7 @@
         margin-left: -8px;
         width: 130px;
         height: 15px;
-        background: rgba(254, 119, 102, 1);
+        background: rgb(248, 212, 207);
         border-radius: 10px;
     }
     .underline-red:hover .line-red {

@@ -1,10 +1,10 @@
 ### Screenshot
-![](./screenshots/screenshot.jpg)
+![](public/screenshots/screenshot.png)
 
 
 ### Links
 - Solution URL: https://github.com/ZeynebKoc/sunnyside-agency-landing--page
-- Live Site URL: https://serene-minsky-39509b.netlify.app/
+- Live Site URL: https://infallible-murdock-a6e270.netlify.app/
 
 
 ### Built with
