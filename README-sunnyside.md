@@ -1,5 +1,5 @@
 ### Screenshot
-![](public/screenshots/screenshot.png)
+![](./public/screenshots/screenshot.png)
 
 
 ### Links
@@ -20,7 +20,3 @@
 
 ## Author
 - Frontend Mentor - [@ZeynebKoc]https://www.frontendmentor.io/profile/ZeynebKoc/my-challenges
-
-
-
-
