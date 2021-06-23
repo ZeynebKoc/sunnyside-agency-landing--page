@@ -65,7 +65,7 @@
         height: 285px;
         width: 445px;
         left: 165px;
-        top: 100px;
+        top: 120px;
     }
     .sec2 {
         left: 720px;
@@ -81,8 +81,8 @@
         flex-direction: column;
         height: 286px;
         width: 445px;
-        left: 165px;
-        top: 100px;
+        left: 110px;
+        top: 130px;
     }
     .sec5 {
         position: relative;
@@ -94,7 +94,7 @@
         height: 143px;
         width: 339px;
         left: 191px;
-        top: -225px;
+        top: -232px;
     }
     .sec6 {
         position: relative;
@@ -106,11 +106,11 @@
         height: 143px;
         width: 734px;
         left: 0px;
-        top: -225px;
+        top: -232px;
     }
     h2 {
         left: 165px;
-        top: 958px;
+        top: 940px;
         font-family: 'Fraunces', serif;
         font-style: normal;
         font-weight: 900;
@@ -140,8 +140,9 @@
         color: #052C3B;
     }
     .text1 {
-        left: 165px;
-        top: 1088px;
+        position: relative;
+        left: 0px;
+        top: -18px;
         font-family: 'Barlow', sans-serif;
         font-style: normal;
         font-weight: 600;
@@ -151,6 +152,9 @@
         color: #808397;
     }
     .text2 {
+        position: relative;
+        left: 0px;
+        top: -8px;
         display: flex;
         align-self: flex-start;
         font-family: 'Fraunces', serif;
@@ -162,30 +166,39 @@
         color: #24303E;
     }
     .line-yellow {
+        position: relative;
+        left: 0px;
+        top: -10px;
         margin-top: -25px;
         margin-left: -8px;
-        width: 130px;
-        height: 15px;
+        width: 135px;
+        height: 10px;
         background: rgba(250, 212, 0, 0.2);
         border-radius: 10px;
+        z-index: -1;
     }
     .underline-yellow:hover .line-yellow {
         cursor: pointer;
         background: rgba(250, 212, 0, 1);   
     }
     .line-red {
+        position: relative;
+        left: 0px;
+        top: -10px;
         margin-top: -25px;
         margin-left: -8px;
-        width: 130px;
-        height: 15px;
+        width: 135px;
+        height: 10px;
         background: rgb(248, 212, 207);
         border-radius: 10px;
+        z-index: -1;
     }
     .underline-red:hover .line-red {
         cursor: pointer;
         background: rgba(254, 119, 102, 1);
     } 
     .text3 {
+        top: 100px;
         font-family: 'Barlow', sans-serif;
         font-style: normal;
         font-weight: 600;

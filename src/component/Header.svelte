@@ -38,9 +38,12 @@
         position: absolute;
     }  
     h1 {
-        position: absolute;
+        position: relative;
+        height: 69px;
+        width: 750px;
         left: 344.5px;
-        top: 195px; 
+        top: 195px;
+ 
         font-family: 'Fraunces', serif;
         font-style: normal;
         font-weight: 900;
@@ -50,19 +53,22 @@
         letter-spacing: 8.75px;
     }
     .arrow {
-        position: absolute;
+        position: relative;
         left: 705px;
-        top: 360.54px;   
+        top: 290px;   
     }
     .header-top {
         position: relative;
         left: 40px; 
-        top: 34px;  
+        top: -153px;  
     }
     .logo {
         position: absolute;
         left: 0px;
         top: 12px;
+        height: 33px;
+        width: 170px;
+
     }
     /* nav */
     navbar {

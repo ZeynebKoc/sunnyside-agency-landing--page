@@ -36,11 +36,11 @@
 
 <style>
     .testimonial {
-        position: relative;
+        position:relative;
         height: 457px;
         width: 1110px;
         left: 165px;
-        top: 0px;
+        top: 160px;
     }
     .people{
         position: relative;
@@ -51,10 +51,9 @@
         width: 1110px;
         height: 457px;
         left: 0px;
-        top: -140px;
+        top: -137px;
     }
     .person1 {
-        position: relative;
         height: 96px;
         width: 350px;
         left: 0px;
@@ -64,7 +63,6 @@
         align-items: center;
     }
     .person2 {
-        position: relative;
         height: 96px;
         width: 350px;
         left: 0px;
@@ -74,7 +72,6 @@
         align-items: center;
     }
     .person3 {
-        position: relative;
         height: 96px;
         width: 350px;
         right: 0px;
@@ -84,9 +81,8 @@
         align-items: center;
     }
     h3 {
-        position: relative;
         left: 0px;
-        top: 190px;
+        top: 3000px;
         text-align: center;
         font-family: 'Fraunces', serif;
         font-style: normal;
@@ -102,12 +98,17 @@
         align-items: center;
         height: 72px;
         width: 72px;
-        left: 519px;
+        left: 139px;
         top: 106px;
         border-radius: 50px;   
     }
     .text {
         position: relative;
+        height: 96px;
+        width: 350px;
+        left: 0px;
+        top: -10px;
+
         top: 40px;
         font-family: 'Barlow', sans-serif;
         font-style: normal;
@@ -120,7 +121,7 @@
     }
     h2 {
         position: relative;
-        top: 100px;
+        top: 75px;
         font-family: 'Fraunces', serif;
         font-style: normal;
         font-weight: 900;
@@ -132,7 +133,7 @@
     }
     .profession {
         position: relative;
-        top: 90px;
+        top: 55px;
         font-family: 'Barlow', sans-serif;
         font-style: normal;
         font-weight: 600;

@@ -39,10 +39,10 @@
 
 <style>
 	footer {
-        position: relative;
+        position: absolute;
         width: 1440px;
         height: 797px;
-        top: 447px;
+        top: 3377px;
     }
     .footer-img {
         position: relative;
