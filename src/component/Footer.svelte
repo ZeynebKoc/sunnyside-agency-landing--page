@@ -1,15 +1,15 @@
 <script>  
-    let srcMilk = '././img/image-gallery-milkbottles.jpg'; 
-    let srcOrange = '././img/image-gallery-orange.jpg';
-    let srcCone = '././img/image-gallery-cone.jpg';
-    let srcSugar = '././img/image-gallery-sugarcubes.jpg'; 
+    let srcMilk = './img/image-gallery-milkbottles.jpg'; 
+    let srcOrange = './img/image-gallery-orange.jpg';
+    let srcCone = './img/image-gallery-cone.jpg';
+    let srcSugar = './img/image-gallery-sugarcubes.jpg'; 
 
-    let srcLogo = '././img/sunnyside.svg'; 
+    let srcLogo = './img/sunnyside.svg'; 
 
-    let srcFacebook = '././img/icon-facebook.svg';
-    let srcInstagram = '././img/icon-instagram.svg';
-    let srcTwitter = '././img/icon-twitter.svg';
-    let srcPinterest = '././img/icon-pinterest.svg'; 
+    let srcFacebook = './img/icon-facebook.svg';
+    let srcInstagram = './img/icon-instagram.svg';
+    let srcTwitter = './img/icon-twitter.svg';
+    let srcPinterest = './img/icon-pinterest.svg'; 
 </script>
 
 <footer>

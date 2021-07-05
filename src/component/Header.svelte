@@ -1,7 +1,7 @@
 <script>  
-    let srcHeader = '././img/image-header.jpg'; 
-    let srcArrow = '././img/icon-arrow-down.svg';
-    let srcLogo = '././img/logo.svg';
+    let srcHeader = './img/image-header.jpg'; 
+    let srcArrow = './img/icon-arrow-down.svg';
+    let srcLogo = './img/logo.svg';
 </script>
 
 <header>

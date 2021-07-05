@@ -1,7 +1,7 @@
 <script> 
-    let srcPhoto1 = '././img/image-emily.jpg';
-    let srcPhoto2 = '././img/image-thomas.jpg';
-    let srcPhoto3 = '././img/image-jennie.jpg';
+    let srcPhoto1 = './img/image-emily.jpg';
+    let srcPhoto2 = './img/image-thomas.jpg';
+    let srcPhoto3 = './img/image-jennie.jpg';
 </script>
 
 <div class='testimonial'>

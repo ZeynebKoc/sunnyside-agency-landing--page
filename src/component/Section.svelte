@@ -1,8 +1,8 @@
 <script>  
-    let srcEgg = '././img/image-transform.jpg'; 
-    let srcCup = '././img/image-stand-out.jpg';
-    let srcCherry = '././img/image-graphic-design.jpg';
-    let srcMandarin = '././img/image-photography.jpg';
+    let srcEgg = './img/image-transform.jpg'; 
+    let srcCup = './img/image-stand-out.jpg';
+    let srcCherry = './img/image-graphic-design.jpg';
+    let srcMandarin = './img/image-photography.jpg';
 </script>
 
 <section>
